@@ -1,0 +1,25 @@
+// I'm 31 years old.
+var myAge = 31;
+
+// The early years is 2.
+var earlyYears = 2;
+
+earlyYears *= 10.5;
+console.log('10 and a half...', earlyYears);
+
+// My later years are my age minus 2.
+var laterYears = myAge - 2;
+
+// The dog years accounted for is my later years times 4.
+laterYears *= 4;
+console.log('My dog years accounted for are...', laterYears);
+
+// My age in dog years are my laterYears plus my earlyYears.
+var myAgeInDogYears = laterYears + earlyYears;
+
+// I'll put my name in lowercase string.
+var myName = Ian;
+console.log(myName.toLowerCase);
+
+// I'm using string interpolation to describe my name.
+console.log(`My name is ${myName}. I am ${myAge} in human years which is ${myAgeInDogYears} years old in dog years.`);
